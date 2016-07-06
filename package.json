@@ -1,0 +1,29 @@
+{
+  "name": "dancing-archs",
+  "version": "1.0.0",
+  "description": "Experiece with webgl and music",
+  "main": "js/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsoares/dancing-archs.git"
+  },
+  "scripts": {
+    "develop": "open http://localhost:8080 && webpack-dev-server --hot --inline",
+    "lint": "eslint .",
+    "build": "webpack"
+  },
+  "author": "Ricardo Soares (botequilha@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-eslint": "^6.1.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "eslint": "^3.0.0",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.10.2",
+    "three": "^0.78.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
